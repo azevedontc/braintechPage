@@ -88,36 +88,36 @@ header nav.desktop-menu li a{
 	color: white;
 }
 
-.chamada1{
+.start{
 	max-width: 600px;
 	float: center;
 	padding:0 20px;
 }
 
-.chamada1 h2{
+.start h2{
 	font-weight: 300;
 	font-size: 40px;
 	color: white;
 }
 
-.chamada1 p{
+.start p{
 	font-size: 15px;
 	color: white;
 }
 
-section.sessao1{
+section.services{
 	width: 100%;
 	background-color: #011218;
 	padding:0 2%;
 	height: 400px;
 }
 
-section.sessao1 .container{
+section.services .container{
 	max-width: 1000px;
 	height: calc(100% + 30px);
 }
 
-.texto-sessao1{
+.texto-services{
 	float: left;
 	width: 50%;
 	position: relative;
@@ -127,23 +127,23 @@ section.sessao1 .container{
 	color: white;
 }
 
-.texto-sessao1 h2{
+.texto-services h2{
 	font-size: 26px;
 	font-weight: 300;
 }
 
-.texto-sessao1 p{
+.texto-services p{
 	margin-top:20px;
 	font-size: 15px;
 }
 
-.texto-sessao1 ul{
+.texto-services ul{
 	font-size: 15px;
 	list-style-position: outside;
 	padding-left: 15px;
 }
 
-.texto-sessao1 ul li{
+.texto-services ul li{
 	width: 100%;
 	margin-top:8px;
 }
@@ -161,7 +161,7 @@ section.sessao1 .container{
 	border-radius: 30px;
 }
 
-.device-sessao1{
+.device-services{
 	float: right;
 	width: 300px;
 	height: 300px;
@@ -173,38 +173,38 @@ section.sessao1 .container{
 	background-size: 100% 100%;
 }
 
-.sessao2{
+.services2{
 	padding-left: 2%;
 	padding-right: 2%;
 	background: white;
 	text-align: center;
 }
 
-.sessao2 .container{
+.services2 .container{
 	padding-top: 40px;
 	padding-bottom: 40px;
 	max-width: 1000px;
 }
 
-.sessao2 h2{
+.services2 h2{
 	color: #472663;
 	font-weight: 300;
 }
 
-.sessao2 p{
+.services2 p{
 	margin-top:30px;
 	max-width: 900px;
 	display:inline-block;
 }
 
-.sessao2 img{
+.services2 img{
 	position: relative;
 	top: 70px;
 	width: 100%;
 	margin-top:10px;
 }
 
-.sessao3{
+.about{
 	width: 100%; 
 }
 
@@ -241,18 +241,18 @@ section.sessao1 .container{
 	background: white;
 }
 
-.sobre-autor{
+.about2{
 	float: left;
 	max-width: 600px;
 	padding-left: 30px;
 }
 
-.titulo-autor{
+.about3{
 	float: left;
 	width: 100%;
 }
 
-.wraper-titulo-autor{
+.about4{
 	float: left;
 }
 
@@ -425,7 +425,7 @@ footer p:nth-of-type(2){
 
 @media screen and (max-width: 830px){
 
-	.chamada1{
+	.start{
 		max-width: none;
 		width: 100%;
 		text-align: center;
@@ -433,14 +433,14 @@ footer p:nth-of-type(2){
 		margin:170px 0;
 	}
 
-	.chamada1 h2{
+	.start h2{
 		font-weight: 300;
 		font-size: 30px;
 		padding:0 0px;
 		color: white;
 	}
 
-	.chamada1 p{
+	.start p{
 		font-size: 15px;
 		color: white;
 		margin-top:10px;
@@ -465,18 +465,18 @@ nav.mobile-menu{
 }
 
 
-section.sessao1{
+section.services{
 	padding:40px 2%;
 	height: auto;
 	text-align: center;
 }
 
-.sessao1 .container{
+.services .container{
 	height: auto;
 }
 
 
-.texto-sessao1{
+.texto-services{
 	width: 100%;
 	margin-top:0;
 	padding-left: 0;
@@ -485,12 +485,12 @@ section.sessao1{
 	display: inline-block;
 }
 
-.texto-sessao1 ul{
+.texto-services ul{
 	display: inline-block;
 	margin-top:20px;
 }
 
-.texto-sessao1 ul li{
+.texto-services ul li{
 	float: none;
 	text-align: left;
 }
@@ -499,11 +499,11 @@ section.sessao1{
 	display: inline-block;
 }
 
-.device-sessao1{
+.device-services{
 	display: none;
 }
 
-.sessao2{
+.services2{
 	padding-top: 40px;
 }
 
@@ -560,7 +560,7 @@ section.sessao4 .container{
 		padding:40px 0;
 	}
 
-	.sessao2 img{
+	.services2 img{
 		top: 16px;
 		margin-top:20px;
 	}
